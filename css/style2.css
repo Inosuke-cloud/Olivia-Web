@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 1em;
+}
+
+.topnav {
+    background-color: #fff;
+    overflow: hidden;
+    padding: 5px;
+    /* box-sizing: border-box; */
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+    margin-right: 2em;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+    transition: 0.5s;
+}
+
+
+/* Add a color to the active/current link */
+
+.judul {
+    position: relative;
+}
+
+.judul::after {
+    content: "";
+    width: 10%;
+    height: 10px;
+    background: #050525;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+}
+
+.link-text {
+    font-weight: bold;
+}
+
+.link-text:hover {
+    background-color: #e5e5e5;
+    transition: .5s;
+}
+
+.footer-right-2 a {
+    color: black;
+}
+
+.footer-right a {
+    color: black;
+}
+
+img {
+    border-radius: 30px;
+    box-shadow: 20px 30px rgba(102, 95, 95, .25);
+}
+
+.deskripsi-atas h2 {
+    font-size: 2.5em;
+}
