@@ -96,3 +96,27 @@ img {
 .deskripsi-atas h2 {
     font-size: 2.5em;
 }
+
+.box1{
+    background-color: #6CF9B5;
+    height: 20em;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+
+.box2{
+    background-color: #93FFCB;
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+}
+
+
+.box3{
+    background-color: #B2E0CA;
+    height: 20vh;
+    width: 100%;
+    border-radius: 15px;
+}
