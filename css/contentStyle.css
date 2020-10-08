@@ -1,0 +1,54 @@
+.judul {
+    position: relative;
+    color: #050525;
+    font-weight: bold;
+}
+
+.judul::after {
+    content: "";
+    width: 2rem;
+    height: 5px;
+    background: #050525;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+}
+
+.judul-anxiety {
+    position: relative;
+    color: #050525;
+    font-weight: bold;
+}
+
+.judul-anxiety::after {
+    content: "";
+    width: 2rem;
+    height: 5px;
+    background: #050525;
+    position: absolute;
+    bottom: -14px;
+    left: 660px;
+}
+
+.anxiety-gambar img {
+    border-radius: 2em;
+    box-shadow: 20px 30px rgba(155, 160, 160, 0.6);
+}
+
+.link-go {
+    margin: 0 auto;
+    border: rgb(85, 83, 83) solid;
+    background-color: #eee;
+    display: inline-block;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.btn-search:hover {
+    background-color: rgb(202, 191, 191);
+    transition: .3s;
+}
+
+h2 h5 {
+    color: #070B33;
+}
