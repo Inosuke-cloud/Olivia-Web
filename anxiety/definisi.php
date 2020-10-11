@@ -92,7 +92,7 @@
     <section id="header" style="padding-top: 7em;"> 
         <?php
 
-        include ('../detail_anxiety/pemicu.html');
+        include ('../detail_anxiety/definisi.html');
 
         ?>
     </section>

@@ -107,28 +107,33 @@ img {
     margin-bottom: 2em;
 }
 
-.box-1 {
-    background-color: #9e5736;
+.box-1,
+.empat {
+    background-color: #df4f0d;
     height: 20em;
-    width: 500px;
+    width: 100%;
     border-radius: 15px;
     cursor: pointer;
     font-size: 1em;
+}
+
+.empat {
+    background-color: #d18967;
 }
 
 
 /* Coloring untuk page anxiety */
 
 .second {
-    background-color: #c06439;
+    background-color: #eb6020;
 }
 
 .third {
-    background-color: #df6e3a;
+    background-color: #da6d3a;
 }
 
 .forth {
-    background-color: #bd7c5f;
+    background-color: #da8056;
 }
 
 
@@ -160,7 +165,7 @@ img {
 
 .memphis {
     height: 18.75rem;
-    width: 1000px;
+    width: 100px;
     background-color: #e6e0e0;
     display: inline-block;
     /* margin-left: -79.375px;

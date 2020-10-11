@@ -64,9 +64,9 @@
                 <a class="no-bortom" href="ciri.php">Ciri-ciri</a>
                 <a class="no-bortom" href="pemicu.php">Pemicu</a>
                 <a class="no-bortom" href="hindari.php">Hal yang perlu dihindari</a>
-                <a class="no-bortom" href="mengatasi.php">Cara mengatasi</a> 
-                <a class="no-bortom" href="definisi.php">Definisi</a> 
-                <a class="no-bortom" href="stigma.php">Stigma masyarakat</a> 
+                <a class="no-bortom" href="mengatasi.php">Cara mengatasi</a>
+                <a class="no-bortom" href="definisi.php">Definisi</a>
+                <a class="no-bortom" href="stigma.php">Stigma masyarakat</a>
             </div>
         </li>
         <li class="nav-link-text">
@@ -92,7 +92,7 @@
     <section id="header" style="padding-top: 7em;"> 
         <?php
 
-        include ('../detail_anxiety/pemicu.html');
+        include ('../detail_anxiety/stigma.html');
 
         ?>
     </section>
