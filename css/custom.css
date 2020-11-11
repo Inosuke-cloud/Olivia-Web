@@ -1,0 +1,125 @@
+/* font */
+
+
+/* judul */
+
+.info-panel {
+    text-align: center;
+}
+
+.info-panel h1 {
+    margin-top: 100px;
+    color: #070B33;
+    font-weight: bold;
+}
+
+.info-panel h1::after {
+    content: '';
+    display: block;
+    border-bottom: 5px solid #070B33;
+    width: 50px;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+
+/* kontak */
+
+.kontak {
+    margin-top: 50px;
+}
+
+.kontak h4 {
+    color: #070B33;
+    font-weight: bold;
+}
+
+.kontak figure img {
+    width: 100px;
+}
+
+.kontak figure figcaption img {
+    width: 20px;
+}
+
+
+/* form kontak */
+
+.formkontak {
+    margin-bottom: 100px;
+}
+
+.formkontak img {
+    width: 250px;
+    margin-top: 50px;
+}
+
+.input-field {
+    position: relative;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+.formkontak label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #979090;
+    transition: 0.2s all;
+    cursor: text;
+}
+
+.formkontak input {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 0.5rem 0;
+    border-bottom: 3px solid #979090;
+    color: #070B33;
+}
+
+.formkontak input:focus,
+input:valid {
+    border-color: #070B33;
+}
+
+input:focus~label,
+input:valid~label {
+    font-size: 14px;
+    top: -14px;
+    color: #070B33;
+}
+
+.formkontak button {
+    margin-top: 20px;
+}
+
+.btn-submit {
+    color: white;
+    background-color: #305D7A;
+}
+
+@media (min-width: 992px) {
+    .input-field {
+        width: 500px;
+    }
+    .formkontak img {
+        width: 100%;
+    }
+    .orang {
+        width: 500px;
+    }
+}
+
+@media (max-width:568px) {
+    .orang {
+        display: none;
+    }
+    .input-field {
+        width: 330px;
+    }
+    .formkontak img {
+        width: 100%;
+    }
+}

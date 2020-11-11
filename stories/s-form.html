@@ -1,0 +1,109 @@
+<!-- judul -->
+<div class="container">
+    <div class="row justify-content-center" style="margin-top: 6rem">
+        <div class="col-10">
+            <div class="row">
+                <div class="col-lg">
+                    <h1 class="judul">
+                        Sumbang Cerita
+                    </h1>
+                    <p style="margin-top: 5em;">Kami menerima cerita dari siapapun mengenai segala hal yang berkaitan dengan psikologi dan kesehatan mental. Secara spesifik, tulisan yang dikirim mengangkat tema-tema psikologi klinis seperti depresi, anxiety, bipolar, relapse, PTSD,
+                        autisme, down syndrome, selective mutism, therapy dll, juga tema psikologi populer seperti patah hati, kesepian dan memaafkan. Selain tulisan yang bersifat pengetahuan (knowledge), kami juga menerima tulisan berupa perjalanan hidup
+                        Anda (stories) dengan mental illness (penjelasan detail ada di bawah!)</p>
+                    <h3 class="judul">
+                        Guideline
+                    </h3>
+                    <ol style="padding-left: 17px;">
+                        <li>Tulisan (deskriptif, analitis) mengenai fenomena psikologi yang ilmiah namun mudah dipahami (knowledge).</li>
+                        <li>Tulisan dalam bentuk kiat atau tips untuk orang-orang yang memiliki gangguan mental atau untuk meningkatkan kesehatan mental.</li>
+                        <li>Merupakan cerita perjalanan hidupmu dengan gangguan mental (depresi, panick attack, PTSD, dll).</li>
+                        <li>Maksimum 900 karakter</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- akhir judul -->
+
+<!-- form stories -->
+<section class="formstories">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <form id="story" action="stories/send.php" method="POST">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputEmail4">Author</label>
+                            <input type="text" name="author" class="form-control" id="inputEmail4" required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputPassword4">Email</label>
+                            <input type="email" name="email" class="form-control" id="inputPassword4" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Judul</label>
+                        <input type="text" name="judul" class="form-control" id="inputAddress" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Cerita</label>
+                        <textarea class="form-control" name="isi" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                    </div>
+                    <input type="submit" id="send" name="send" class="btn btn-submit" value="Post"></input>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- akhir stories -->
+
+<!-- option -->
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-10 option">
+            <div class="row">
+                <div class="col-lg">
+                    <h1>
+                        Anda juga dapat membagi <br> cerita dengan menghubungi
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- akhir option -->
+
+<!-- email -->
+<section class="email">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 justify-content-center d-flex">
+                <figure class="figure text-center">
+                    <img src="images/mailbulet.png" class="figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption">
+                        <h4>Email Us</h4>
+                        <a href="#">
+                            <p style="color: black;">anxwer9@gmail.com</p>
+                        </a>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- akhir email -->
+
+
+
+
+<script>
+    $(document).ready(function() {
+        //your code here
+        $('#story').submit(function(event) {
+            if (!confirm("some text")) {
+                event.preventDefault();
+            }
+        });
+    });
+</script>

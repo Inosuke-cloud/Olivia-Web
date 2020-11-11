@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.container{
+    background-color: #ddd;
+    overflow: hidden;
+    margin-top: 7em;
+    border-radius: 50px;
+    padding-bottom: 20em;
+}
+
+/* Add a color to the active/current link */
+
+.judul {
+    position: relative;
+}
+
+.judul::after {
+    content: "";
+    width: 50px;
+    height: 5px;
+    background: #050525;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+}
+
+img {
+    border-radius: 30px;
+    /* box-shadow: 10px 10px rgba(102, 95, 95, .25); */
+}
+
+.box1 {
+    background-color: #6CF9B5;
+    height: 20em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box1:hover {
+    background-color: rgba(194, 143, 48, 0.25);
+}
+
+.box2 {
+    background-color: #93FFCB;
+    height: 20em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box2:hover {
+    background-color: rgba(194, 143, 48, 0.25);
+}
+
+.box3 {
+    background-color: #B2E0CA;
+    height: 20em;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.box3:hover {
+    background-color: rgba(194, 143, 48, 0.25);
+}
+
+.title {
+    padding-top: 5em;
+    padding-left: 3em;
+    text-align: left;
+}
+
+.path {
+    text-transform: lowercase;
+}
+
+.content p {
+    padding-left: 3em;
+    text-align: justify;
+}
+
+.footer {
+    padding: 6em;
+    text-align: center;
+    margin-top: -30%;
+}
+
+/* .judul {
+    color: #050525;
+    position: relative;
+}
+
+.judul::after {
+    content: "";
+    height: 10px;
+    width: 50px;
+    background: #050525;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+}
+ */
+.rounded-circle {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+
+.button {
+    
+    -webkit-transition: background-color 200ms linear;
+    -ms-transition: background-color 200ms linear;
+    transition: background-color 200ms linear;
+
+    background-color: #cccccc;
+    border-radius: 10px;
+    width: auto;
+}
+
+.button:hover{
+    background-color: #ffffff;
+}
+
+.button:hover span{
+    color: #aaaaaa;
+}
+
+
+.title hr {
+    border: 5px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.content hr {
+    margin-bottom: 0.2%;
+}
+
+/* @media (max-width: 576px) {
+    .box1,
+    .box2,
+    .box3 {
+        font-size: .8rem;
+        margin-top: 3rem;
+    }
+} */
+

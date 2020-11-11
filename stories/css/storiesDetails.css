@@ -1,0 +1,99 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container{
+    background-color: #ddd;
+    overflow: hidden;
+    margin-top: 7em;
+    border-radius: 50px;
+    padding-bottom: 20em;
+  }
+  
+  .title {
+    padding-top: 5em;
+    padding-left: 3em;
+    text-align: left;
+  }
+  
+  .path{
+    text-transform: lowercase;
+  }
+  
+  .content p{
+    padding-left: 3em;
+    text-align: justify;
+  }
+  
+  .footer{
+    padding: 6em;
+    text-align: center;
+    margin-top: -30%;
+  }
+  
+  .judul {
+    color: #050525;
+    position: relative;
+  }
+  
+  .judul::after {
+    content: "";
+    width: 5%;
+    height: 10px;
+    background: #050525;
+    position: absolute;
+    bottom: -14px;
+    left: 0;
+  
+  }
+  
+  .rounded-circle{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  }
+  
+  .button{
+    background-color:rgb(15, 161, 52);
+    border-radius: 10px;
+    width: 150px;
+  }
+  
+  .title hr{
+    border: 5px;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  }
+  
+  .content hr{
+    margin-bottom: 0.2%;
+  }
+  
+  
+  /* Ukuran tablet
+  
+  @media screen and (max-width:768px) {
+    .judul{
+      width: 50%;
+    }
+  
+  }
+  
+  
+  /* Ukuran mobile */
+  
+  /* @media screen and (max-width:576px) {
+    .judul{
+      width: 20%;
+    }
+    .title {
+      padding-top: 5em;
+      padding-left: 2em;
+      text-align: left;
+      text-size-adjust: 4em;
+    }
+    .judul::after{
+      width: 7%;
+    }
+  }  */
